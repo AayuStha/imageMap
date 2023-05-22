@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Image Map</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Image Map</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <h1>Concept of Image Map</h1>
 
-<h1 style="text-align: center;">Concept of Image Map</h1>
+            <br>    
+        
+            <img src="example.jpg" alt="Example Image" width="1089" height="683" id="second" usemap="#exampleMap">
 
-<br>
-    
-    <img src="example.jpg" alt="Example Image" width="1089" height="683" id="second" usemap="#exampleMap">
+            <map name="exampleMap">
+                <area shape="rect" coords="274,185,880,507" href="https://www.apple.com/mac/" alt="laptop">
+                <area shape="rect" coords="825,126,897,279" href="https://www.samsung.com/in/smartphones/" alt="mobile">
+                <area shape="rect" coords="905,369,1053,566" href="https://classmateshop.com/" alt="diary">
+                <area shape="rect" coords="777,622,973,624" href="https://www.pilotpen.eu/" alt="pen">
+                <area shape="rect" coords="173,389,392,621" href="https://glaminati.com/yellow-flowers/" alt="photo">
+            </map>
 
-    <map name="exampleMap">
-        <area shape="rect" coords="274,185,880,507" href="https://www.apple.com/mac/" alt="laptop">
-        <area shape="rect" coords="825,126,897,279" href="https://www.samsung.com/in/smartphones/" alt="mobile">
-        <area shape="rect" coords="905,369,1053,566" href="https://classmateshop.com/" alt="diary">
-        <area shape="rect" coords="777,622,973,624" href="https://www.pilotpen.eu/" alt="pen">
-        <area shape="rect" coords="173,389,392,621" href="https://glaminati.com/yellow-flowers/" alt="photo">
-    </map>
-
+        </div>
+    </body>
 </html>
